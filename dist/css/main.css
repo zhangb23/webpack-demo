@@ -1,0 +1,17 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+div {
+  padding: 10px;
+  background: #1875e7; }
+  div ul {
+    background: #FEF534;
+    padding: 10px; }
+    div ul li {
+      list-style-type: none;
+      background: #EE4C29;
+      padding: 10px; }
+      div ul li p {
+        background: #34FE34;
+        padding: 10px; }

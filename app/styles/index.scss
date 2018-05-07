@@ -1,0 +1,28 @@
+$font-stack : Helvetica,sans-serif;
+$primary-color: #333;
+$blue: #1875e7;
+$red: #EE4C29;
+$yellow :#FEF534;
+$green :#34FE34;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+div {
+    padding: 10px;
+    background: $blue;
+    ul {
+        background: $yellow;
+        padding: 10px;
+        li {
+	        list-style-type:none;
+            background: $red;
+            padding: 10px;
+            p {
+                background: $green;
+                padding: 10px;
+            }
+        }
+    }
+}
